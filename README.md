@@ -86,3 +86,5 @@ ConstraintViewController类是这个内容演示类，主要通过NSLayoutConstr
 效果可以参考下图，
 
 ![AutoLayoutDemo](http://7u2k5i.com1.z0.glb.clouddn.com/github_autolayoutdemo.png?imageMogr2/thumbnail/!50p) 
+![AutoLayoutDemo](http://7u2k5i.com1.z0.glb.clouddn.com/github_autolayoutdemo1.png?imageMogr2/thumbnail/!50p) 
+
