@@ -65,20 +65,20 @@
 
 -(void)buttAction{
    
-    ConstraintViewController *commonPassengerVC=[[ConstraintViewController alloc] init];
-    [self.navigationController pushViewController:commonPassengerVC animated:YES];
+    ConstraintViewController *constraintVC=[[ConstraintViewController alloc] init];
+    [self.navigationController pushViewController:constraintVC animated:YES];
     
 }
 -(void)butt1Action{
-    VFLViewController *commonPassengerVC=[[VFLViewController alloc] init];
-    [self.navigationController pushViewController:commonPassengerVC animated:YES];
+    VFLViewController *viewController=[[VFLViewController alloc] init];
+    [self.navigationController pushViewController:viewController animated:YES];
     
     
     
 }
 -(void)butt2Action{
-    TableViewController *commonPassengerVC=[[TableViewController alloc] init];
-    [self.navigationController pushViewController:commonPassengerVC animated:YES];
+    TableViewController *tableVC=[[TableViewController alloc] init];
+    [self.navigationController pushViewController:tableVC animated:YES];
     
 }
 
