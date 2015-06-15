@@ -1,5 +1,5 @@
 # AutoLayoutDemo
-AutoLayout的基本使用，包括NSLayoutConstraint创建一个约束，VFL（Visual format language　）创建一组约束以及使用Autolayout实现UITableView的Cell动态布局和高度动态改变
+AutoLayout代码实现方式的基本使用，是不使用XIB的福音，包括NSLayoutConstraint创建一个约束，VFL（Visual format language　）创建一组约束以及使用Autolayout实现UITableView的Cell动态布局和高度动态改变
 
 ####NSLayoutConstraint创建一个约束
 参考链接：[   http://www.mgenware.com/blog/?p=490](   http://www.mgenware.com/blog/?p=490)
