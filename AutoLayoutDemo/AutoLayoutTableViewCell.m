@@ -17,13 +17,14 @@
         // Initialization code
         titleLabel=[[UILabel alloc] init];
         [self.contentView addSubview:titleLabel];
-        titleLabel.backgroundColor=[UIColor lightGrayColor];
-        
+        titleLabel.backgroundColor=[UIColor colorWithRed:0.09 green:0.63 blue:0.37 alpha:1];
+        titleLabel.textColor=[UIColor whiteColor];
         
         descriptionLabel=[[UILabel alloc] init];
         [self.contentView addSubview:descriptionLabel];
         descriptionLabel.backgroundColor=[UIColor colorWithRed:0.09 green:0.42 blue:0.93 alpha:1];
         descriptionLabel.numberOfLines=0;
+        descriptionLabel.textColor=[UIColor whiteColor];
         logoImageView=[[UIImageView alloc] init];
 
         [self.contentView addSubview:logoImageView];
