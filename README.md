@@ -1,6 +1,8 @@
 # AutoLayoutDemo
 AutoLayout代码实现方式的基本使用，是不使用XIB的福音，包括NSLayoutConstraint创建一个约束，VFL（Visual format language　）创建一组约束以及使用Autolayout实现UITableView的Cell动态布局和高度动态改变
 
+AutoLayout其实是一种非常好的屏幕适配方案，包括横竖屏、iPhone与iPad，不学之前觉得他很鸡肋，学了之后发现它其实很好用。
+
 ####NSLayoutConstraint创建一个约束
 参考链接：[   http://www.mgenware.com/blog/?p=490](   http://www.mgenware.com/blog/?p=490)
 
