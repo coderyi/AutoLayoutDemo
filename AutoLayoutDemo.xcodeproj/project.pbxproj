@@ -18,6 +18,10 @@
 		0A9B4D091B2C67D700F3F5A7 /* AutoLayoutTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9B4D081B2C67D700F3F5A7 /* AutoLayoutTableViewCell.m */; };
 		0A9B4D101B2C6ADC00F3F5A7 /* ConstraintViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9B4D0F1B2C6ADC00F3F5A7 /* ConstraintViewController.m */; };
 		0A9B4D131B2C6AE900F3F5A7 /* VFLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9B4D121B2C6AE900F3F5A7 /* VFLViewController.m */; };
+		0ABE0D1C1C11C3500063A6B1 /* MasonryDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABE0D1B1C11C3500063A6B1 /* MasonryDemoViewController.m */; };
+		0ABE0D1F1C11C3610063A6B1 /* MasonryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABE0D1E1C11C3610063A6B1 /* MasonryTableViewCell.m */; };
+		0ABE0D221C11C3760063A6B1 /* MasonryDataEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABE0D211C11C3760063A6B1 /* MasonryDataEntity.m */; };
+		AD292438D93F275AD281AFC4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DB63F43E8824A1909B574D1 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,15 @@
 		0A9B4D0F1B2C6ADC00F3F5A7 /* ConstraintViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConstraintViewController.m; sourceTree = "<group>"; };
 		0A9B4D111B2C6AE900F3F5A7 /* VFLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFLViewController.h; sourceTree = "<group>"; };
 		0A9B4D121B2C6AE900F3F5A7 /* VFLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFLViewController.m; sourceTree = "<group>"; };
+		0ABE0D1A1C11C3500063A6B1 /* MasonryDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasonryDemoViewController.h; sourceTree = "<group>"; };
+		0ABE0D1B1C11C3500063A6B1 /* MasonryDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasonryDemoViewController.m; sourceTree = "<group>"; };
+		0ABE0D1D1C11C3610063A6B1 /* MasonryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasonryTableViewCell.h; sourceTree = "<group>"; };
+		0ABE0D1E1C11C3610063A6B1 /* MasonryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasonryTableViewCell.m; sourceTree = "<group>"; };
+		0ABE0D201C11C3760063A6B1 /* MasonryDataEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasonryDataEntity.h; sourceTree = "<group>"; };
+		0ABE0D211C11C3760063A6B1 /* MasonryDataEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasonryDataEntity.m; sourceTree = "<group>"; };
+		18BC82DBDFF4076DBC51DEBE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		6DB63F43E8824A1909B574D1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B24881EFEA7A867F72605FE6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD292438D93F275AD281AFC4 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +93,8 @@
 				0A9B4CDD1B2C678F00F3F5A7 /* AutoLayoutDemo */,
 				0A9B4CF71B2C678F00F3F5A7 /* AutoLayoutDemoTests */,
 				0A9B4CDC1B2C678F00F3F5A7 /* Products */,
+				75E6D8672F35ED5153444986 /* Pods */,
+				F029F1922F4DA0C6558C8798 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +122,12 @@
 				0A9B4D051B2C67B900F3F5A7 /* TableViewController.m */,
 				0A9B4D071B2C67D700F3F5A7 /* AutoLayoutTableViewCell.h */,
 				0A9B4D081B2C67D700F3F5A7 /* AutoLayoutTableViewCell.m */,
+				0ABE0D1A1C11C3500063A6B1 /* MasonryDemoViewController.h */,
+				0ABE0D1B1C11C3500063A6B1 /* MasonryDemoViewController.m */,
+				0ABE0D1D1C11C3610063A6B1 /* MasonryTableViewCell.h */,
+				0ABE0D1E1C11C3610063A6B1 /* MasonryTableViewCell.m */,
+				0ABE0D201C11C3760063A6B1 /* MasonryDataEntity.h */,
+				0ABE0D211C11C3760063A6B1 /* MasonryDataEntity.m */,
 				0A9B4CE81B2C678F00F3F5A7 /* Main.storyboard */,
 				0A9B4CEB1B2C678F00F3F5A7 /* Images.xcassets */,
 				0A9B4CED1B2C678F00F3F5A7 /* LaunchScreen.xib */,
@@ -141,6 +163,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		75E6D8672F35ED5153444986 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B24881EFEA7A867F72605FE6 /* Pods.debug.xcconfig */,
+				18BC82DBDFF4076DBC51DEBE /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F029F1922F4DA0C6558C8798 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DB63F43E8824A1909B574D1 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -148,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A9B4CFE1B2C678F00F3F5A7 /* Build configuration list for PBXNativeTarget "AutoLayoutDemo" */;
 			buildPhases = (
+				55AB28B56A0C7C44211926E7 /* Check Pods Manifest.lock */,
 				0A9B4CD71B2C678F00F3F5A7 /* Sources */,
 				0A9B4CD81B2C678F00F3F5A7 /* Frameworks */,
 				0A9B4CD91B2C678F00F3F5A7 /* Resources */,
+				0EFD649546E56C835F309933 /* Embed Pods Frameworks */,
+				7F0FE3979EA1E404E706A992 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,6 +278,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0EFD649546E56C835F309933 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55AB28B56A0C7C44211926E7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7F0FE3979EA1E404E706A992 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0A9B4CD71B2C678F00F3F5A7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -243,7 +333,10 @@
 			files = (
 				0A9B4CE71B2C678F00F3F5A7 /* ViewController.m in Sources */,
 				0A9B4D101B2C6ADC00F3F5A7 /* ConstraintViewController.m in Sources */,
+				0ABE0D221C11C3760063A6B1 /* MasonryDataEntity.m in Sources */,
 				0A9B4D131B2C6AE900F3F5A7 /* VFLViewController.m in Sources */,
+				0ABE0D1C1C11C3500063A6B1 /* MasonryDemoViewController.m in Sources */,
+				0ABE0D1F1C11C3610063A6B1 /* MasonryTableViewCell.m in Sources */,
 				0A9B4CE41B2C678F00F3F5A7 /* AppDelegate.m in Sources */,
 				0A9B4CE11B2C678F00F3F5A7 /* main.m in Sources */,
 				0A9B4D091B2C67D700F3F5A7 /* AutoLayoutTableViewCell.m in Sources */,
@@ -371,6 +464,7 @@
 		};
 		0A9B4CFF1B2C678F00F3F5A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B24881EFEA7A867F72605FE6 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = AutoLayoutDemo/Header.h;
@@ -384,6 +478,7 @@
 		};
 		0A9B4D001B2C678F00F3F5A7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18BC82DBDFF4076DBC51DEBE /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = AutoLayoutDemo/Header.h;

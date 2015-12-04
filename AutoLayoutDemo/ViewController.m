@@ -10,6 +10,7 @@
 #import "TableViewController.h"
 #import "ConstraintViewController.h"
 #import "VFLViewController.h"
+#import "MasonryDemoViewController.h"
 @interface ViewController ()
 
 @end
@@ -60,7 +61,17 @@
     [butt2 setTitle:@"Cell高度动态改变" forState:UIControlStateNormal];
     [butt2 addTarget:self action:@selector(butt2Action) forControlEvents:UIControlEventTouchUpInside];
     
-
+    UIButton *butt3=[UIButton buttonWithType:UIButtonTypeCustom];
+    [self.view addSubview:butt3];
+    butt3.frame=CGRectMake((SCREEN_WIDTH-200)/2, 300, 200, 40);
+    butt3.titleLabel.font=[UIFont systemFontOfSize:13];
+    butt3.backgroundColor=[UIColor colorWithRed:0.09 green:0.42 blue:0.93 alpha:1];
+    [butt3 setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    [butt3 setTitle:@"Masonry Demo" forState:UIControlStateNormal];
+    [butt3 addTarget:self action:@selector(butt3Action) forControlEvents:UIControlEventTouchUpInside];
+    
+    
+    
 }
 
 -(void)buttAction{
@@ -81,7 +92,11 @@
     [self.navigationController pushViewController:tableVC animated:YES];
     
 }
-
+-(void)butt3Action{
+    MasonryDemoViewController *tableVC=[[MasonryDemoViewController alloc] init];
+    [self.navigationController pushViewController:tableVC animated:YES];
+    
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
